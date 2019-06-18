@@ -1,15 +1,24 @@
 language: python
 
+# run python
 python:
-  - "3.6"
+ - "3.6"
 
 sudo: required
 
+# install dependencies
 install:
-  - pip install coveralls
+ - pip install coveralls
 
+# run tests
 script:
-  - coverage run --source=testes_e_cobertura setup.py test
+ - coverage run -m pytest
+ #- coverage run -m pytest src/test/test_core.py
+ #- coverage run --source=src/graph setup.py test
+ #- coverage report
 
 after_success:
-  - coveralls
+ - coveralls
+
+notifications:
+ email: false
