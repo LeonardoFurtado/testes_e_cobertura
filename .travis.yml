@@ -7,3 +7,6 @@ sudo: required
 
 script:
   - python setup.py test
+
+after_success:
+  - coveralls
