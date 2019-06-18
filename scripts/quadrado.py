@@ -14,6 +14,3 @@ class Quadrado(FiguraGeometrica):
     # Retorna o perimetro do quadrado
     def get_perimetro(self):
         return 4 * self.lado
-    
-    def set_lado(self, value):
-        self.lado = value
