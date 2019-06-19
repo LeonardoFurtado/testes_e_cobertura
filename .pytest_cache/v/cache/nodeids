@@ -1,0 +1,10 @@
+[
+  "test/circulo_test.py::TestCirculo::test_get_area",
+  "test/circulo_test.py::TestCirculo::test_get_perimetro",
+  "test/figura_geometrica_test.py::TestFiguraGeometrica::test_get_area",
+  "test/figura_geometrica_test.py::TestFiguraGeometrica::test_get_perimetro",
+  "test/quadrado_test.py::TestQuadrado::test_get_area",
+  "test/quadrado_test.py::TestQuadrado::test_get_perimetro",
+  "test/retangulo_test.py::TestRetangulo::test_get_area",
+  "test/retangulo_test.py::TestRetangulo::test_get_perimetro"
+]
