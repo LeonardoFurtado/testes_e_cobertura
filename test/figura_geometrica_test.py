@@ -2,21 +2,14 @@
 from unittest import TestCase
 from scripts.figura_geometrica import FiguraGeometrica
 
-# O nome da classe deve iniciar com a palavra Test
-class TestFiguraGeometrica(TestCase):
 
-    # Serve para incializar variavel que usaremos
-    # globalmente nos testes
+class TestFiguraGeometrica(TestCase):
     def setUp(self):
         TestCase.setUp(self)
         self.fig = FiguraGeometrica()
 
-    # Retorna uma NotImplementedError
-    # O nome do metodo deve comecar com test
     def test_get_area(self):
         self.assertRaises(NotImplementedError, self.fig.get_area)
 
-    # Retorna uma NotImplementedError
-    # O nome do metodo deve comecar com test
     def test_get_perimetro(self):
         self.assertRaises(NotImplementedError, self.fig.get_perimetro)
