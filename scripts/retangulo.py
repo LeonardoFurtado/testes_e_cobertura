@@ -11,3 +11,15 @@ class Retangulo(FiguraGeometrica):
 
     def get_perimetro(self):
         return 2 * self.lado_a + 2 * self.lado_b
+
+
+class Figura(FiguraGeometrica):
+    def __init__(self):
+        self.lado_a = 0
+        self.lado_b = 0
+
+    def get_area(self):
+        return 2 * 3
+
+    def get_perimetro(self):
+        return None
