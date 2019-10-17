@@ -27,3 +27,23 @@ class Figura(FiguraGeometrica):
 
 class Example(FiguraGeometrica):
     pass
+
+
+class Example2(FiguraGeometrica):
+    pass
+
+
+class Example3(FiguraGeometrica):
+    pass
+
+
+class Example4(FiguraGeometrica):
+    pass
+
+
+class Example5(FiguraGeometrica):
+    pass
+
+
+class Example6(FiguraGeometrica):
+    pass
