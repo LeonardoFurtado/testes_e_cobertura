@@ -26,7 +26,11 @@ class Figura(FiguraGeometrica):
 
 
 class Example(FiguraGeometrica):
-    pass
+    def __init__(self):
+        self.value = 0
+
+    def get_area(self):
+        return 2 * value
 
 
 class Example2(FiguraGeometrica):
