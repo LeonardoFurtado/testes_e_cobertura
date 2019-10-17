@@ -9,4 +9,4 @@
 </p>
 
 
-Repository for my studies about tests and code coverage..
+Repository for my studies about tests and code coverage.
