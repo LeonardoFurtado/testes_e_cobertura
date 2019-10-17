@@ -23,3 +23,7 @@ class Figura(FiguraGeometrica):
 
     def get_perimetro(self):
         return None
+
+
+class Example(FiguraGeometrica):
+    pass
