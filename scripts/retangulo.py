@@ -51,3 +51,7 @@ class Example5:
 
 class Example6:
     pass
+
+
+class Example7:
+    pass
