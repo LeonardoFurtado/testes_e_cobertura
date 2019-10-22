@@ -25,7 +25,7 @@ class Figura(FiguraGeometrica):
         return None
 
 
-class Example(FiguraGeometrica):
+class Example:
     def __init__(self):
         self.value = 0
 
@@ -33,21 +33,21 @@ class Example(FiguraGeometrica):
         return 2 * value
 
 
-class Example2(FiguraGeometrica):
+class Example2:
     pass
 
 
-class Example3(FiguraGeometrica):
+class Example3:
     pass
 
 
-class Example4(FiguraGeometrica):
+class Example4:
     pass
 
 
-class Example5(FiguraGeometrica):
+class Example5:
     pass
 
 
-class Example6(FiguraGeometrica):
+class Example6:
     pass
